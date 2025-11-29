@@ -40,13 +40,13 @@ e ter acesso ao repositorio e assim consenquentemente realizar os comandos neces
 <img width="562" height="142" alt="image" src="https://github.com/user-attachments/assets/7c4477f2-82bc-4df3-a1c0-db4d26f6e306" />
 
 - Após me localizar nas pastas usando o comando `pwd`, utilizei o comando `cd` para entrar na pasta que continha os arquivos do repositório
- <img width="561" height="91" alt="image" src="https://github.com/user-attachments/assets/ec503524-cae1-47e6-b3f4-0ab04a0d8860" />
+<img width="561" height="91" alt="image" src="https://github.com/user-attachments/assets/ec503524-cae1-47e6-b3f4-0ab04a0d8860" />
 
 - Realizei as mudanças no código a partir do arquivo fornecido pelo Matheus em seu repositório. A ideia foi pegar a base do que o Matheus criou para adicionar um método simples de multiplicação, onde se pega A e multiplica por B, o resultado é armazenado na variável `multiplicacao` 
 <img width="560" height="520" alt="image" src="https://github.com/user-attachments/assets/7412850a-edc0-484c-a1c0-7e1317d190f2" />
 
 - Realizei um `git add Algoritmo.por` para adicionar o arquivo ao commit e logo depois dei um `git commit` para realizar o commit
- <img width="563" height="132" alt="image" src="https://github.com/user-attachments/assets/d6e79702-cb61-4abf-85c4-bbc0c34aa753" />
+<img width="563" height="132" alt="image" src="https://github.com/user-attachments/assets/d6e79702-cb61-4abf-85c4-bbc0c34aa753" />
 
 - Por fim, realizei um `git push` no Git para aplicar as mudanças no arquivo do repositório
  <img width="565" height="171" alt="image" src="https://github.com/user-attachments/assets/a6483371-d884-47ca-a250-7ad937c68890" />
@@ -61,6 +61,11 @@ LITERALMENTE TODO O TERMINAL DE CADA INTEGRANTE
 ### Kleyton Luiz - Terminal 
 
 ### Guilherme Acioli - Terminal 
+<img width="560" height="46" alt="image" src="https://github.com/user-attachments/assets/24081a3b-3716-47e9-8abd-f62bc93e50d6" />
+<img width="562" height="142" alt="image" src="https://github.com/user-attachments/assets/7c4477f2-82bc-4df3-a1c0-db4d26f6e306" />
+<img width="561" height="91" alt="image" src="https://github.com/user-attachments/assets/ec503524-cae1-47e6-b3f4-0ab04a0d8860" />
+<img width="563" height="132" alt="image" src="https://github.com/user-attachments/assets/d6e79702-cb61-4abf-85c4-bbc0c34aa753" />
+<img width="565" height="171" alt="image" src="https://github.com/user-attachments/assets/a6483371-d884-47ca-a250-7ad937c68890" />
 
 ## Observações
 Cada etapa foi realizada por apenas um integrante por vez, 
