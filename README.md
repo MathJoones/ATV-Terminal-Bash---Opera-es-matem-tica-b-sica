@@ -32,10 +32,25 @@ e ter acesso ao repositorio e assim consenquentemente realizar os comandos neces
  
 
 ### Guilhermer Acioli 
-- Como Configurou o Git? não deixe exposto sua chave.
-- Fez `git pull` após o commit de Ciclana.
-- Finalizou o algoritmo com lógica . . .
-- <img width="415" height="92" alt="image" src="https://github.com/user-attachments/assets/100529dc-95f6-46a3-9693-52751e64c940" />
+- Como Configurou o Git? Como já havia configurado uma chave para meu computador anteriormente, não houve necessidade de configurar outra. 
+- Realizei um `eval "$(ssh-agent -s)"` para iniciar o agente.
+<img width="560" height="46" alt="image" src="https://github.com/user-attachments/assets/24081a3b-3716-47e9-8abd-f62bc93e50d6" />
+
+- Realizei um `git clone {Chave SSH do Repositório}`  para clonar o repositório
+<img width="562" height="142" alt="image" src="https://github.com/user-attachments/assets/7c4477f2-82bc-4df3-a1c0-db4d26f6e306" />
+
+- Após me localizar nas pastas usando o comando `pwd`, utilizei o comando `cd` para entrar na pasta que continha os arquivos do repositório
+ <img width="561" height="91" alt="image" src="https://github.com/user-attachments/assets/ec503524-cae1-47e6-b3f4-0ab04a0d8860" />
+
+- Realizei as mudanças no código a partir do arquivo fornecido pelo Matheus em seu repositório. A ideia foi pegar a base do que o Matheus criou para adicionar um método simples de multiplicação, onde se pega A e multiplica por B, o resultado é armazenado na variável `multiplicacao` 
+<img width="560" height="520" alt="image" src="https://github.com/user-attachments/assets/7412850a-edc0-484c-a1c0-7e1317d190f2" />
+
+- Realizei um `git add Algoritmo.por` para adicionar o arquivo ao commit e logo depois dei um `git commit` para realizar o commit
+ <img width="563" height="132" alt="image" src="https://github.com/user-attachments/assets/d6e79702-cb61-4abf-85c4-bbc0c34aa753" />
+
+- Por fim, realizei um `git push` no Git para aplicar as mudanças no arquivo do repositório
+ <img width="565" height="171" alt="image" src="https://github.com/user-attachments/assets/a6483371-d884-47ca-a250-7ad937c68890" />
+  
 
 
 
