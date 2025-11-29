@@ -34,6 +34,8 @@ e ter acesso ao repositorio e assim consenquentemente realizar os comandos neces
 - Como Configurou o Git? não deixe exposto sua chave.
 - Fez `git pull` após o commit de Ciclana.
 - Finalizou o algoritmo com lógica . . .
+- <img width="415" height="92" alt="image" src="https://github.com/user-attachments/assets/100529dc-95f6-46a3-9693-52751e64c940" />
+
 
 
 ## Comandos utilizados
