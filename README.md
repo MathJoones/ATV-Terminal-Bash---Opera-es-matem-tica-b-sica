@@ -9,7 +9,7 @@
 Desenvolver colaborativamente um algoritmo em Portugol de operações de matematica básica como adição, subtração, divisão e multiplicação.
 
 
-## Etapas realizadas por cada membro AQUI VOCÊ VAI ESPECIFICAR O QUE VOCÊ FEZ E VALIDAREI COM SEUS COMANDOS UTILIZADOS, E SEUS COMMITS.
+## Etapas realizadas por cada membro 
 
 -- Matheus Cardoso de Oliveira - Realizei a criação do repositorio via git hub subi um arquivo .por, com a base de inicio
 para os demais colaborades onde implentei a operação soma, como crie o repositório e apenas subi oo arquivo . por com o inicio da implementação não houve a necessidade,
