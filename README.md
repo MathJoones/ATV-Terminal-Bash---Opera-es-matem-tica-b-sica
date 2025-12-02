@@ -48,19 +48,25 @@ e ter acesso ao repositorio e assim consenquentemente realizar os comandos neces
 
 ### Kleyton Luiz
 - Primeiro realizei a criação da chave SSH utilizando o comando: `ssh-keygen -t rsa -b 4096 -C "exemplo@email.com"`.
+<img width="543" height="318" alt="SSHkeygen" src="https://github.com/user-attachments/assets/d44c2577-6afe-49f5-babc-1b3be99853d4" />
 
 - Após salvar a chave SSH, inicializei o agente com `eval "$(ssh-agent -s)"`, adicionei a nova chave SSH ao agente com `ssh-add ~/.ssh/id_rsa` e então copiei a chave SSH utilizando o comando `clip < ~/.ssh/id_rsa.pub` para conecta-lá no meu GitHub. O teste de conexão com o GiHub foi realizado com o comando `ssh -T git@github.com`. 
+<img width="565" height="220" alt="SSHagent" src="https://github.com/user-attachments/assets/8f1e7390-7b91-4d9d-9255-2e7df92aa142" />
 
 - Utilizando o comando `git clone {chave SSH do repositório}` realizei a clonagem do repositório público para a minha máquina.
+<img width="627" height="142" alt="RepoClone" src="https://github.com/user-attachments/assets/ba0085e0-6505-4595-ac37-24ffc27bfa66" />
 
 - Antes de realizar qualquer alteração, entrei na pasta do repositório clonado e realizei um `git pull` para confirmar se o meu repositório local está atualizado.
+<img width="609" height="102" alt="GitPull" src="https://github.com/user-attachments/assets/7acdae2f-b46c-4832-b3b3-e4892e16718e" />
 
 - Adicionei as mudanças com base no arquivo atualizado pelo Guilherme, onde foi implementado a lógica de subtração e divisão. O programa checa se o valor de B é igual a 0, se for o caso ele pula a divisão e descreve o problema, senão, executa a divisão normalmente.
-
+<img width="618" height="597" alt="image" src="https://github.com/user-attachments/assets/a5c59d79-e210-4b34-844f-0244042413e3" />
 
 - Após realizar as implementações, utilizei o comando `git add .` para adicionar todos os arquivos modificados para o commit, logo então realizei o comando `git commit -m "Implementando operacao de subtracao e divisao"` para commitar junto a uma mensagem.
+<img width="607" height="113" alt="GitCommit" src="https://github.com/user-attachments/assets/868e7e12-6874-4725-8694-9572d3d0a913" />
 
 - Por fim, utilizei o comando `git push`, que permitiu enviar todas as alterações commitadas para o repositório público. 
+<img width="626" height="169" alt="GitPush" src="https://github.com/user-attachments/assets/628d47a4-47fe-4a16-a940-2ee78b10e0ad" />
 
 
 ## Comandos utilizados
@@ -68,6 +74,12 @@ Todos os comandos foram executados via terminal utilizando chave SSH:
 LITERALMENTE TODO O TERMINAL DE CADA INTEGRANTE
 
 ### Kleyton Luiz - Terminal 
+<img width="543" height="318" alt="SSHkeygen" src="https://github.com/user-attachments/assets/4edd00bb-a218-4b40-8178-6d7d0eaf2b34" />
+<img width="565" height="220" alt="SSHagent" src="https://github.com/user-attachments/assets/c6cef4d3-fa65-4149-8972-7aa240fe1e88" />
+<img width="627" height="142" alt="RepoClone" src="https://github.com/user-attachments/assets/637b7f6d-7ae6-45cb-bb98-79aa35f63139" />
+<img width="609" height="102" alt="GitPull" src="https://github.com/user-attachments/assets/feacc32b-47a7-47fd-b83f-88d0cfaeea5b" />
+<img width="607" height="113" alt="GitCommit" src="https://github.com/user-attachments/assets/5d896410-01a7-425b-bf29-f8fd108fc5b6" />
+<img width="626" height="169" alt="GitPush" src="https://github.com/user-attachments/assets/1a30c3bd-5a0c-4d8e-adf5-09f9eb3d72f8" />
 
 ### Guilherme Acioli - Terminal 
 <img width="560" height="46" alt="image" src="https://github.com/user-attachments/assets/24081a3b-3716-47e9-8abd-f62bc93e50d6" />
