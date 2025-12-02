@@ -25,12 +25,6 @@ e ter acesso ao repositorio e assim consenquentemente realizar os comandos neces
 - Criou o arquivo `algoritmo.por` com a estrutura inicial: com a estrutura padrão de função e inicio porem implementei ja um inicio ao demais com a operação soma onde criei 3 variaveis definidas do tipo inteiro A , B e (SOMA = A + B) que recebia o valor inserido pelo usuario e retornava a soma delas.
 - fez o que? depois? Logo após a criação do repositorio e a criação do arquivo.por apenas configurei o READM.ME e fiz um uploado do meu arquivo .por para os demais colaboradores fazerem a implementação via chave SSH.
 
-### Kleyton Luiz
-- Como Configurou o Git? não deixe exposto sua chave.
-- Fez `git pull` após o commit de Fulano.
-- Adicionou lógica de ... 
- 
-
 ### Guilhermer Acioli 
 - Como Configurou o Git? Como já havia configurado uma chave para meu computador anteriormente, não houve necessidade de configurar outra. 
 - Realizei um `eval "$(ssh-agent -s)"` para iniciar o agente.
@@ -52,6 +46,21 @@ e ter acesso ao repositorio e assim consenquentemente realizar os comandos neces
  <img width="565" height="171" alt="image" src="https://github.com/user-attachments/assets/a6483371-d884-47ca-a250-7ad937c68890" />
   
 
+### Kleyton Luiz
+- Primeiro realizei a criação da chave SSH utilizando o comando: `ssh-keygen -t rsa -b 4096 -C "exemplo@email.com"`.
+
+- Após salvar a chave SSH, inicializei o agente com `eval "$(ssh-agent -s)"`, adicionei a nova chave SSH ao agente com `ssh-add ~/.ssh/id_rsa` e então copiei a chave SSH utilizando o comando `clip < ~/.ssh/id_rsa.pub` para conecta-lá no meu GitHub. O teste de conexão com o GiHub foi realizado com o comando `ssh -T git@github.com`. 
+
+- Utilizando o comando `git clone {chave SSH do repositório}` realizei a clonagem do repositório público para a minha máquina.
+
+- Antes de realizar qualquer alteração, entrei na pasta do repositório clonado e realizei um `git pull` para confirmar se o meu repositório local está atualizado.
+
+- Adicionei as mudanças com base no arquivo atualizado pelo Guilherme, onde foi implementado a lógica de subtração e divisão. O programa checa se o valor de B é igual a 0, se for o caso ele pula a divisão e descreve o problema, senão, executa a divisão normalmente.
+
+
+- Após realizar as implementações, utilizei o comando `git add .` para adicionar todos os arquivos modificados para o commit, logo então realizei o comando `git commit -m "Implementando operacao de subtracao e divisao"` para commitar junto a uma mensagem.
+
+- Por fim, utilizei o comando `git push`, que permitiu enviar todas as alterações commitadas para o repositório público. 
 
 
 ## Comandos utilizados

@@ -20,8 +20,18 @@ programa
 		inteiro soma = a + b 
 		escreva("A soma de: ", a, " + ", b, " é : ", soma)
 
-    inteiro multiplicacao = a * b
-    escreva("\nA multiplicações de: ", a, " x ", b, " é: ", multiplicacao)
-	
+		inteiro subtracao = a - b
+		escreva("\nA subtração de: ", a, " - ", b, " é : ", subtracao)
+
+		inteiro multiplicacao = a * b
+		escreva("\nA multiplicações de: ", a, " x ", b, " é: ", multiplicacao)
+		
+		se(b != 0)
+		{
+			real divisao = a / b
+			escreva("\nA divisão de: ", a, " / ", b, " é : ", divisao)
+		} senao {
+			escreva("\n Não é possível realizar a divisão por 0")
+		}
 	}
 }
