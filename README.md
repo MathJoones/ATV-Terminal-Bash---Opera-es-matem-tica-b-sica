@@ -10,11 +10,6 @@ Desenvolver colaborativamente um algoritmo em Portugol de operações de matemat
 
 
 ## Etapas realizadas por cada membro 
-
--- Matheus Cardoso de Oliveira - Realizei a criação do repositorio via git hub subi um arquivo .por, com a base de inicio
-para os demais colaboradores onde implementei a operação soma, como crie o repositório eu apenas subi oo arquivo .por com o inicio da implementação não houve a necessidade,
-de dar um push, commmit ou algo do tipo mas os demais colaborades como seram via SSH iram utilizar o terminal para possiveis tarefas realizadas.
-
 ---------------------------------------------------
 
 ### Matheus Cardoso de Oliveira - MathJoones
